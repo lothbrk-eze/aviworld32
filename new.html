@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aviworld</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/bootstrap.js"></script>
+  <style>
+    .bg-img {
+      background-image: url("images/jkia4.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    .hover-zoom {
+      transition: transform 0.3s ease;
+    }
+    .hover-zoom:hover {
+      transform: scale(1.05);
+    }
+    .card-img-top {
+      height: 250px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-info">
+    <div class="container">
+      <a href="#" class="navbar-brand"><strong>AVIWORLD</strong></a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ms-auto">
+          <a href="#" class="nav-link active">Home</a>
+          <a href="#" class="nav-link">Travel</a>
+          <a href="defense.html" class="nav-link">Defense System</a>
+          <a href="purchase a plane.html" class="nav-link">Plane Sale</a>
+          <a href="adventure and exploring.html" class="nav-link">Adventure</a>
+          <a href="gallery.html" class="nav-link">Gallery</a>
+          <a href="faqs.html" class="nav-link">Help</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="text-center p-4 bg-img text-white">
+    <h1>Welcome to Aviworld</h1>
+    <p class="lead">The aviation sector has evolved immensely since the Wright brothers. With advancing technology, modern airplanes, jets, and aviation services are now more accessible than ever before.</p>
+  </header>
+
+  <section class="container my-5">
+    <h2 class="text-center text-danger">Travel</h2>
+    <div class="row">
+      <!-- Repeat travel cards -->
+      <!-- Example Card -->
+      <div class="col-md-3 mb-4">
+        <div class="card h-100">
+          <img src="images/jkia4.jpg" class="card-img-top hover-zoom" alt="JKIA">
+          <div class="card-body">
+            <h5 class="card-title text-warning">Nairobi (NBI) to Mombasa (MSA)</h5>
+            <p class="card-text">Ksh 17,075</p>
+            <a href="#" class="btn btn-outline-danger w-100">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add more travel cards similarly -->
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <h2 class="text-center text-success">Adventure</h2>
+    <h4 class="text-center">Kenya Safaris</h4>
+    <div class="row">
+      <!-- Safari tour cards similar to above -->
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <h2 class="text-center text-primary">Defense System</h2>
+    <div class="row">
+      <!-- Defense cards similar to above -->
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <h2 class="bg-warning text-white p-2">Rescue Operations</h2>
+    <div class="row">
+      <!-- Example Rescue Card -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <div class="card-header">
+            <h5>Fire Fight</h5>
+          </div>
+          <div class="card-body">
+            <img src="images/firefight.jpg" alt="Firefight" class="img-fluid hover-zoom">
+            <p class="mt-2">Helicopters dropping water to put out fires in forests.</p>
+          </div>
+          <div class="card-footer">
+            <p class="text-success">Emergency help in less than 5 minutes.</p>
+            <button class="btn btn-danger">Need Help!</button>
+          </div>
+        </div>
+      </div>
+      <!-- Add more rescue cards -->
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center p-3">
+    <p>Developed by Kiprop &copy; All rights reserved</p>
+  </footer>
+</body>
+</html>
